@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .feedback-container {
+    background: white;
+    padding: 20px 30px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+
+  .centered-image {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .centered-image img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+  }
+  
+  .required {
+    color: red;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="file"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .info-icons {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .submit-btn,
+  .close-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .submit-btn {
+    background-color: #0052cc;
+    color: white;
+  }
+  
+  .close-btn {
+    background-color: transparent;
+    color: #0052cc;
+  }
+  
